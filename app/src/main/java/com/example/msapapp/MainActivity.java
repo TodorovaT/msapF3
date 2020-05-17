@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Build;
+import android.util.Log;
+import android.view.View;
+
 import com.example.msapapp.restarter.RestartServiceBroadcastReceiver;
 
 public class MainActivity extends Activity {
@@ -26,4 +29,5 @@ public class MainActivity extends Activity {
         finish();
     }
 }
+
 
